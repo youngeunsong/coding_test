@@ -27,9 +27,18 @@
 * 깊이 우선 탐색: 그래프에서 깊은 부분을 우선적으로 탐색하는 알고리즘
 * 스택 구조에 기반함.
 * O(N)의 시간 소요 
+* [추천 문제 백준 링크](https://coding-grandpa.tistory.com/122)
+    * 1260 
+    * 2606
+    * 1012
+    * 2667 
+* 팁: 파이썬 기본 재귀 함수 깊이 상한= 1000 이라 recursion error 발생 가능. 따라서 아래 코드를 이용해 제한 푸는 것 필요
+```
+sys.setrecursionlimit(10000)
+```
 
 ## BFS (Breadth First Search)
 * 너비 우선 탐색: 가까운 노드부터 탐색하는 알고리즘 
 * 큐 구조에 기반함. 
 * O(N)의 시간 소요. 일반적으로 **수행 시간이 DFS보다 짧은 편**  (코딩 테스트 한정)
-
+* [추천 문제 백준 링크](https://www.acmicpc.net/workbook/view/1833)
