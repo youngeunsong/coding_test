@@ -41,4 +41,5 @@ sys.setrecursionlimit(10000)
 * 너비 우선 탐색: 가까운 노드부터 탐색하는 알고리즘 
 * 큐 구조에 기반함. 
 * O(N)의 시간 소요. 일반적으로 **수행 시간이 DFS보다 짧은 편**  (코딩 테스트 한정)
-* [추천 문제 백준 링크](https://www.acmicpc.net/workbook/view/1833)
+* [추천 문제 백준 링크](https://www.acmicpc.net/workbook/view/18658)
+* 정답률 높은 문제 5개를 풀며 연습하기 
