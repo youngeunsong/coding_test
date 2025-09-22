@@ -87,7 +87,24 @@ sys.setrecursionlimit(10000)
 1. 정렬라이브러리로 풀 수 있는 문제: 난이도 낮음
 1. 정렬 알고리즘 원리에 관한 문제: 선택 정렬, 삽입 정렬, 퀵 정렬 원리를 알아야 풀이 가능
     * 백준 문제 모음 링크
-        * 선택 정렬: [링크](https://yuneenelife.tistory.com/44)
+        * 선택 정렬 
+            * [23881](https://yuneenelife.tistory.com/44)
+            * [23882](https://www.acmicpc.net/problem/23882)
+            * [23883](https://www.acmicpc.net/problem/23883)
+        * 삽입 정렬 
+            * [24051](https://www.acmicpc.net/problem/24051)
+            * [24052](https://www.acmicpc.net/problem/24052)
+            * [24053](https://www.acmicpc.net/problem/24053)
+            * [24054](https://www.acmicpc.net/problem/24054) # 현재 pypy3 적용해도 시간 초과 오류 발생 
+            * [24055](https://www.acmicpc.net/problem/24054)
+            * 풀이 팁: 시간 초과 발생 시 인터프리터를 pypy3로 변경해볼 것. 
+        * 퀵 정렬
+            * [24090](https://www.acmicpc.net/problem/24090)
+            * [24091](https://www.acmicpc.net/problem/24091)
+            * [24092](https://www.acmicpc.net/problem/24092)
+        * 계수 정렬 
+            * [10989](https://www.acmicpc.net/problem/10989)
+        
         
 1. 더 빠른 정렬이 필요한 문제: 퀵 정렬 기반 정렬 기반으로 풀이 불가능. 계수 정렬 등 다른 정렬 알고리즘 이용 혹은 기존에 알려진 알고리즘 개선해야 풀이 가능 
     * 백준 문제 모음 링크 
