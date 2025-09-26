@@ -165,6 +165,26 @@ sys.setrecursionlimit(10000)
 * [1654](https://www.acmicpc.net/problem/1654)
 * [2805](https://www.acmicpc.net/problem/2805)
 
+## 챕터 8: 다이나믹 프로그래밍 
+* 다이나믹 프로그래밍 (Dynamic Programming, 동적 계획법) : 메모리 공간을 조금 더 사용하여 연산 속도를 비약적으로 증가시킬 수 있는 대표적인 방법. 
+* 다음 조건 만족시 DP 적용 가능
+    1. 큰 문제를 작은 문제로 나눌 수 있다. 
+    1. 작은 문제에서 구한 정답은 그것을 포함하는 문제에서도 동일하다 
+* 메모이제이션(Memoization, 캐싱, Caching): DP 중 하나. 한 번 구한 결과를 메모리 공간에 저장해두고 같은 식을 다시 호출하면 메모한 결과를 그대로 가져오는 기법. 
+* 다이나믹 프로그래밍으로 해결 가능한 대표적 예시
+    * 피보나치 수열: 이전 두 항의 합을 현재의 항으로 설정하는 수열 
+        * 재귀 함수로 풀이 시 시간 복잡도: O(2 <sup>N</sup>)
+        * 메모이제이션 + 재귀 함수 풀이 시 시간 복잡도: O(N)
+    * 탑다운 방법: 큰 문제를 해결하기 위해 작은 문제를 호출하는 방식 
+    * 보텀업 방법: 단순히 반복 문제를 해결하기 위해 작은 문제부터 차근차근 답을 도출하는 방식.**권장방법**
+    
+### 다이나믹 프로그래밍 백준 문제 모음
+문제 선정 시 [supergravity](https://yomangstartup.tistory.com/139)님 포스트 참고. 풀이도 있음. 
+* [9095](https://www.acmicpc.net/problem/9095)    
+* [1932](https://www.acmicpc.net/problem/1932)
+* [9465](https://www.acmicpc.net/problem/9465)
+* [12865](https://www.acmicpc.net/problem/12865)
+
 ## 부록: 코딩 테스트 연습 시 팁
 ### 빠른 입력 받기
 ```
